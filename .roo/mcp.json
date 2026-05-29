@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "moegirl-wiki": {
+      "command": "npx",
+      "args": ["-y", "moegirl-wiki-mcp-fix"],
+      "alwaysAllow": ["search_moegirl", "get_page", "get_page_sections"]
+    }
+  }
+}

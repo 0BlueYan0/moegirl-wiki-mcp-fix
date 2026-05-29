@@ -52,10 +52,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-name/moegirl-wiki-mcp-fix.git"
+    "url": "git+https://github.com/0BlueYan0/moegirl-wiki-mcp-fix.git"
   },
-  "homepage": "https://github.com/your-name/moegirl-wiki-mcp-fix#readme",
+  "homepage": "https://github.com/0BlueYan0/moegirl-wiki-mcp-fix#readme",
   "bugs": {
-    "url": "https://github.com/your-name/moegirl-wiki-mcp-fix/issues"
+    "url": "https://github.com/0BlueYan0/moegirl-wiki-mcp-fix/issues"
   }
 }

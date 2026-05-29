@@ -40,7 +40,7 @@ moegirl-wiki-mcp-fix
 从 GitHub 本机运行：
 
 ```bash
-git clone https://github.com/<your-name>/moegirl-wiki-mcp-fix.git
+git clone https://github.com/0BlueYan0/moegirl-wiki-mcp-fix.git
 cd moegirl-wiki-mcp-fix
 npm install
 npm run build
