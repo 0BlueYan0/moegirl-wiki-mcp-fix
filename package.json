@@ -1,0 +1,61 @@
+{
+  "name": "moegirl-wiki-mcp-fix",
+  "version": "0.2.3",
+  "description": "萌娘百科 MCP 服务器修复版，兼容 AstrBot/OpenAI function tool schema 限制",
+  "main": "dist/mcp.js",
+  "type": "module",
+  "bin": {
+    "moegirl-wiki-mcp-fix": "dist/mcp.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js",
+    "mcp": "node dist/mcp.js",
+    "test": "node tests/tool-schema-openai-compatible.test.mjs",
+    "smoke:search": "node dist/cli.js search 芙宁娜",
+    "clean": "rm -rf dist"
+  },
+  "files": [
+    "dist/",
+    "src-ts/",
+    "README.md",
+    "LICENSE",
+    "AGENTS.md"
+  ],
+  "keywords": [
+    "mcp",
+    "server",
+    "moegirl",
+    "萌娘百科",
+    "wiki",
+    "acg",
+    "anime",
+    "comics",
+    "games",
+    "astrbot",
+    "openai"
+  ],
+  "author": "yokami618 and contributors",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-name/moegirl-wiki-mcp-fix.git"
+  },
+  "homepage": "https://github.com/your-name/moegirl-wiki-mcp-fix#readme",
+  "bugs": {
+    "url": "https://github.com/your-name/moegirl-wiki-mcp-fix/issues"
+  }
+}
