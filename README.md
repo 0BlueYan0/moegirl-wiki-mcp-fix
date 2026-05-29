@@ -24,8 +24,6 @@ Invalid schema for function 'get_page': schema must have type 'object' and not h
 
 ## Install
 
-发布到 npm 后可以直接使用：
-
 ```bash
 npx moegirl-wiki-mcp-fix
 ```
@@ -49,27 +47,12 @@ npm run mcp
 
 ## AstrBot Configuration
 
-如果已经发布到 npm：
-
 ```json
 {
   "mcpServers": {
     "moegirl-wiki": {
       "command": "npx",
       "args": ["-y", "moegirl-wiki-mcp-fix"]
-    }
-  }
-}
-```
-
-如果还没有发布到 npm，可以直接指向本机编译后的文件：
-
-```json
-{
-  "mcpServers": {
-    "moegirl-wiki": {
-      "command": "node",
-      "args": ["C:\\myspace\\moegirl-wiki-mcp-fix\\dist\\mcp.js"]
     }
   }
 }
@@ -184,26 +167,6 @@ npm test
 - `npm start` - 启动 CLI
 - `npm test` - 运行 schema 兼容性回归测试
 - `npm run smoke:search` - 使用 CLI 搜索萌娘百科，依赖外部网络和萌娘百科 API
-
-## Publish to npm
-
-发布前请确认：
-
-```bash
-npm install
-npm run build
-npm test
-npm pack --dry-run
-```
-
-登录并发布：
-
-```bash
-npm login
-npm publish
-```
-
-如果 npm 提示名称已被占用，请修改 `package.json` 里的 `name` 后再发布。
 
 ## Project Structure
 
