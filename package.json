@@ -1,6 +1,6 @@
 {
   "name": "moegirl-wiki-mcp-fix",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "萌娘百科 MCP 服务器修复版，兼容 AstrBot/OpenAI function tool schema 限制",
   "main": "dist/mcp.js",
   "type": "module",
